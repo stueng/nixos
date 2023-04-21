@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# - How to use this script
+# boot into nix live CD and issue the passwd command
+# type ip a to get the IP address of the system
+# SSH onto the system and then run the next commands
+# curl https://raw.githubusercontent.com/stueng/nixos/main/install.sh >> install.sh
+# chmod +x install.sh
+# ./install.sh
+
 nix_config_url="https://raw.githubusercontent.com/stueng/nixos/main/localconfig.nix"
 config_script="https://raw.githubusercontent.com/stueng/nixos/main/configure.sh"
 
