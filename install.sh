@@ -1,7 +1,7 @@
 #!/bin/sh
 
-nix_config_url="https://raw.githubusercontent.com/4waySupport/nixos-public/main/vPentest/localconfiguration.nix"
-config_script="https://raw.githubusercontent.com/4waySupport/nixos-public/main/vPentest/configure.sh"
+nix_config_url="https://raw.githubusercontent.com/stueng/nixos/main/localconfig.nix"
+config_script="https://raw.githubusercontent.com/stueng/nixos/main/configure.sh"
 
 # Create partitions
 parted --script /dev/sda -- mklabel gpt
